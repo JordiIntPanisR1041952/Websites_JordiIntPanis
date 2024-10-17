@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(214, 254, 254);
+    font-family: 'Courier Prime';
+}
+#header{
+    text-align: center;
+    padding:15px;
+}
+.menu{
+    position: sticky;
+    top:0;
+    display: flex;
+    background-color: rgb(46, 240, 140);
+}
+.menu a{
+    flex:20%;
+    padding:20px;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+}
+.active, a:hover{
+    background-color: rgb(214, 254, 254);
+}
+.jordi{
+    height:500px;
+    border-radius:5px;
+}
+.box{
+    display:flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.mijnfoto{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 40%;
+    height: 70vh;
+}
+.mijninfo{
+    flex: 40%;
+    height: 70vh;
+}
+.mijninfo p, h2{
+    margin:20px;
+}
+.interesses{
+    height: 250px;
+}
+.interessefoto{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 280px;
+}
+.mijninteresses{
+    width:60%;
+    height: 280px;
+}
+.mijninteresses p{
+    margin:20px;
+}
+img{
+    border-radius:5px;
+}
+.form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+}
+p a{
+    color:rgb(34, 57, 229);
+    text-decoration: none;
+}
+p a:visited{
+    color:rgb(0, 0, 0);
+}
+p a:hover{
+    color:rgb(1, 147, 118);
+}
