@@ -72,13 +72,13 @@ img{
     align-items: center;
     height:60vh;
 }
-p a{
-    color:rgb(34, 57, 229);
-    text-decoration: none;
-}
 p a:visited{
     color:rgb(0, 0, 0);
 }
 p a:hover{
     color:rgb(1, 147, 118);
+}
+p a{
+    color:rgb(34, 57, 229);
+    text-decoration: none;
 }
